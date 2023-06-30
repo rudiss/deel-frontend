@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 550px;
+}
+.container input {
+  padding: 16px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 94%;
+
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(237 241 247);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.list-container li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
